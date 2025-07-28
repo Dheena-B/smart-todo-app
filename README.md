@@ -1,6 +1,6 @@
 # 🧠 Smart To-Do App
 
-A modern and interactive To-Do List app built with HTML, CSS, and JavaScript (ES6+).  
+A modern and interactive To-Do List app built with HTML, CSS, and JavaScript.  
 This app helps users manage their daily tasks with smart features like local storage, progress tracking, timers, and more.
 
 ## ✨ Features
