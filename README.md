@@ -42,7 +42,7 @@ smart-todo-app/
 
 ```bash
 
-git clone https://github.com/yourusername/smart-todo-app.git
+[git clone https://github.com/yourusername/smart-todo-app.git](https://github.com/Dheena-B/smart-todo-app.git)
 
 Open index.html in your browser
 
