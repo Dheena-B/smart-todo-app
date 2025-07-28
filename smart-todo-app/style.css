@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Inconsolata:wght@200..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #f5f5f5;
+  text-align: center;
+  padding: 40px;
+}
+
+.container {
+  max-width: 400px;
+  margin: auto;
+  background: white;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 0 10px gray;
+}
+
+.input-section {
+  display: flex;
+  gap: 10px;
+}
+
+input {
+  flex: 1;
+  padding: 10px;
+}
+
+button {
+  padding: 10px;
+  cursor: pointer;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.completed {
+  text-decoration: line-through;
+  color: gray;
+}
+
+#searchInput {
+  width: 80%;
+  padding: 10px;
+  margin-top: 10px;
+  font-size: 16px;
+}
+
+/* Add at bottom of style.css */
+body.dark-mode {
+  background-color: #121212;
+  color: white;
+}
+
+body.dark-mode .container {
+  background-color: #1e1e1e;
+  box-shadow: 0 0 10px #444;
+}
+
+body.dark-mode input,
+body.dark-mode button {
+  background-color: #333;
+  color: white;
+  border: 1px solid #555;
+}
+/*responsive*/
+/*
+body {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+  }
+
+  input, button {
+    padding: 10px;
+    margin: 5px 0;
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+  li {
+    list-style: none;
+    padding: 10px;
+    margin: 5px 0;
+    background: #eee;
+    border-radius: 8px;
+    transition: 0.3s;
+  }
+
+  li.completed {
+    text-decoration: line-through;
+    background: #cfc;
+  }
+
+  
+  @media (max-width: 500px) {
+    body {
+      padding: 10px;
+    }
+
+    button {
+      font-size: 14px;
+    }
+  }*/

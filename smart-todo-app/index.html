@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Smart To-Do App</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <style>
+    body {
+      font-family: "Poppins", sans-serif;
+      background-color: white;
+      color: black;
+      transition: 0.3s;
+    }
+
+    body.dark {
+      background-color: #121212;
+      color: white;
+    }
+
+    .dark input,
+    .dark button {
+      background-color: #222;
+      color: white;
+      border: 1px solid #444;
+    }
+
+    #themeToggle {
+      margin: 10px;
+      cursor: pointer;
+    }
+  </style>
+  <body>
+    <button id="themeToggle">🌗 Change Theme</button>
+    <!-- Add this before the To-Do section -->
+    <input type="datetime-local" id="dueDateInput" />
+    <progress id="progressBar" value="0" max="100"></progress>
+    <div id="loginSection">
+      <h2>🔐 Login</h2>
+      <input type="text" id="usernameInput" placeholder="Name" />
+      <button id="loginBtn">Login</button>
+    </div>
+    <div id="todoSection" style="display: none">
+      <h1>📋 My Smart To-Do App</h1>
+      <button id="logoutBtn">🚪 Logout</button>
+
+      <div class="container">
+        <button id="themeToggleBtn">🌙 Dark Mode</button>
+        <h1>📋My Smart To-Do App</h1>
+
+        <div class="input-section">
+          <input type="text" id="taskInput" placeholder="Some Enter..." />
+          <button id="addTaskBtn">➕ Add</button>
+        </div>
+        <div class="search-section" style="margin-top: 20px">
+          🔍<input type="text" id="searchInput" placeholder="some Search..." />
+        </div>
+
+        <ul id="taskList"></ul>
+
+      </div>
+      <button id="clearTasks">🧹 Clear All Tasks</button>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>
