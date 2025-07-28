@@ -3,6 +3,10 @@
 A modern and interactive To-Do List app built with HTML, CSS, and JavaScript.  
 This app helps users manage their daily tasks with smart features like local storage, progress tracking, timers, and more.
 
+## 🚀 Live Demo
+
+👉 [Click here to open the live app](https://dheena-to-do-app.netlify.app/)
+
 ## ✨ Features
 
 - ✅ Add, complete, and delete tasks
